@@ -67,3 +67,14 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 770px) {
+    body {
+        width: 50%;
+        height: auto;
+    }
+
+    input {
+        margin: 10px;
+    }
+}
