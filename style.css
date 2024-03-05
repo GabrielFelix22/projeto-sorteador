@@ -70,11 +70,23 @@ button:active {
 
 @media screen and (max-width: 770px) {
     body {
-        width: 50%;
-        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
     input {
-        margin: 10px;
+        display: block;
+        width: 342px;
+        height: 74px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    
+    img {
+        max-height: 20vh;
     }
 }
